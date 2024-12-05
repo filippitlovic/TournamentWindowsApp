@@ -1,0 +1,12 @@
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\bin\Debug\net8.0\TournamentLibrary.deps.json
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\bin\Debug\net8.0\TournamentLibrary.dll
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\bin\Debug\net8.0\TournamentLibrary.pdb
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\TournamentLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\TournamentLibrary.AssemblyInfoInputs.cache
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\TournamentLibrary.AssemblyInfo.cs
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\TournamentLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\TournamentLibrary.dll
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\refint\TournamentLibrary.dll
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\TournamentLibrary.pdb
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\ref\TournamentLibrary.dll
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\TournamentLibrary.csproj.AssemblyReference.cache
