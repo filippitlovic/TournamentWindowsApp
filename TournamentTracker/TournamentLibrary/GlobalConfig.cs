@@ -11,21 +11,23 @@ namespace TournamentLibrary
     public static class GlobalConfig
     {
         // ovo znaci, Connections lista ce drzat sve ono sto implementira IdataConnection interface(moze biti i sql i textfile)
-        public static List<IDataConnection> Connections { get; private set; } = new List<IDataConnection>();
+        public static IDataConnection Connection { get; private set; } 
 
-        public static void InitializeConnections(bool database, bool textFiles)
+
+        public static void InitializeConnections(DatabaseType db) // parametar je enum, da ne moramo vodit brigu oce neko ubacit naziv malim, velikm slovom, krivi naziv .. itd, ovako samo moze birat sta se nalazi u enumu, jednostavno sigurnije je
           {
-            if (database)
+
+            if (db == DatabaseType.Sql)
             {
-                ///TODO - do sth - create sql con, set up sqlcon properly
+                ///create sql con, set up sqlcon properly
                 SqlConnector sql = new SqlConnector();
-                Connections.Add(sql);
+                Connection = sql;
             }
-            if (textFiles)
+            else if (db == DatabaseType.TextFile)
             {
-                ///TODO- do sth - create Text connc
+                ///create Text connc
                 TextConnector text = new TextConnector();
-                Connections.Add(text);
+                Connection = text;
             }
         }
 

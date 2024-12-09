@@ -15,7 +15,7 @@
         {
             PlaceName = placeName;
             int placeNumberValue = 0;
-            int.TryParse(placeNumber, out placeNumberValue); // vraca bool i vrijednost u placeNumVal
+            int.TryParse(placeNumber, out placeNumberValue); // vraca bool i vrijednost u placeNumberValue
             PlaceNumber = placeNumberValue;
 
             decimal prizeAmountValue = 0;

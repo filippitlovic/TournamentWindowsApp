@@ -10,3 +10,4 @@ C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net
 C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\TournamentLibrary.pdb
 C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\ref\TournamentLibrary.dll
 C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\TournamentLibrary.csproj.AssemblyReference.cache
+C:\Users\Korisnik\source\repos\TournamentTracker\TournamentLibrary\obj\Debug\net8.0\TournamentLibrary.sourcelink.json

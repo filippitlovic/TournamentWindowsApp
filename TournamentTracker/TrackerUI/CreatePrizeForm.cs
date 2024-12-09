@@ -33,13 +33,12 @@ namespace TrackerUI
         {
             if (ValidateForm())
             {
+                //Kreiranje modela 
                 PrizeModel model = new PrizeModel(placeNameValue.Text,placeNumberValue.Text,prizeAmountValue.Text,prizePercentageValue.Text);
                
                 //ovo mi nije jasno cemu to radi
-                foreach(var db in GlobalConfig.Connections)
-                {
-                    db.CreatePrize(model);
-                }
+                
+                GlobalConfig.Connection.CreatePrize(model);
 
                 //Nakon klika na button, da se forma očisti, da se sve vrati na početne vrijednosti
                 placeNameValue.Text = "";

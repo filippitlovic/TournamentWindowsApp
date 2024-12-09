@@ -35,14 +35,14 @@
             selectTeamMemberDropDown = new ComboBox();
             selectTeamMemberLabel = new Label();
             addNewMemberGroupBox = new GroupBox();
-            firstNameValue = new TextBox();
-            firstNameLabel = new Label();
-            lastNameValue = new TextBox();
-            lastNameLabel = new Label();
-            emailValue = new TextBox();
-            emailLabel = new Label();
             cellphoneValue = new TextBox();
             cellphoneLabel = new Label();
+            emailValue = new TextBox();
+            emailLabel = new Label();
+            lastNameValue = new TextBox();
+            lastNameLabel = new Label();
+            firstNameValue = new TextBox();
+            firstNameLabel = new Label();
             createMemberButton = new Button();
             teamMembersListBox = new ListBox();
             deleteSelectedMemberButton = new Button();
@@ -119,37 +119,21 @@
             addNewMemberGroupBox.TabStop = false;
             addNewMemberGroupBox.Text = "Add new member";
             // 
-            // firstNameValue
+            // cellphoneValue
             // 
-            firstNameValue.Location = new Point(98, 35);
-            firstNameValue.Name = "firstNameValue";
-            firstNameValue.Size = new Size(125, 27);
-            firstNameValue.TabIndex = 10;
+            cellphoneValue.Location = new Point(98, 134);
+            cellphoneValue.Name = "cellphoneValue";
+            cellphoneValue.Size = new Size(125, 27);
+            cellphoneValue.TabIndex = 16;
             // 
-            // firstNameLabel
+            // cellphoneLabel
             // 
-            firstNameLabel.AutoSize = true;
-            firstNameLabel.Location = new Point(17, 38);
-            firstNameLabel.Name = "firstNameLabel";
-            firstNameLabel.Size = new Size(77, 20);
-            firstNameLabel.TabIndex = 9;
-            firstNameLabel.Text = "First name";
-            // 
-            // lastNameValue
-            // 
-            lastNameValue.Location = new Point(98, 68);
-            lastNameValue.Name = "lastNameValue";
-            lastNameValue.Size = new Size(125, 27);
-            lastNameValue.TabIndex = 12;
-            // 
-            // lastNameLabel
-            // 
-            lastNameLabel.AutoSize = true;
-            lastNameLabel.Location = new Point(17, 71);
-            lastNameLabel.Name = "lastNameLabel";
-            lastNameLabel.Size = new Size(76, 20);
-            lastNameLabel.TabIndex = 11;
-            lastNameLabel.Text = "Last name";
+            cellphoneLabel.AutoSize = true;
+            cellphoneLabel.Location = new Point(17, 137);
+            cellphoneLabel.Name = "cellphoneLabel";
+            cellphoneLabel.Size = new Size(76, 20);
+            cellphoneLabel.TabIndex = 15;
+            cellphoneLabel.Text = "Cellphone";
             // 
             // emailValue
             // 
@@ -167,21 +151,37 @@
             emailLabel.TabIndex = 13;
             emailLabel.Text = "Email";
             // 
-            // cellphoneValue
+            // lastNameValue
             // 
-            cellphoneValue.Location = new Point(98, 134);
-            cellphoneValue.Name = "cellphoneValue";
-            cellphoneValue.Size = new Size(125, 27);
-            cellphoneValue.TabIndex = 16;
+            lastNameValue.Location = new Point(98, 68);
+            lastNameValue.Name = "lastNameValue";
+            lastNameValue.Size = new Size(125, 27);
+            lastNameValue.TabIndex = 12;
             // 
-            // cellphoneLabel
+            // lastNameLabel
             // 
-            cellphoneLabel.AutoSize = true;
-            cellphoneLabel.Location = new Point(17, 137);
-            cellphoneLabel.Name = "cellphoneLabel";
-            cellphoneLabel.Size = new Size(76, 20);
-            cellphoneLabel.TabIndex = 15;
-            cellphoneLabel.Text = "Cellphone";
+            lastNameLabel.AutoSize = true;
+            lastNameLabel.Location = new Point(17, 71);
+            lastNameLabel.Name = "lastNameLabel";
+            lastNameLabel.Size = new Size(76, 20);
+            lastNameLabel.TabIndex = 11;
+            lastNameLabel.Text = "Last name";
+            // 
+            // firstNameValue
+            // 
+            firstNameValue.Location = new Point(98, 35);
+            firstNameValue.Name = "firstNameValue";
+            firstNameValue.Size = new Size(125, 27);
+            firstNameValue.TabIndex = 10;
+            // 
+            // firstNameLabel
+            // 
+            firstNameLabel.AutoSize = true;
+            firstNameLabel.Location = new Point(17, 38);
+            firstNameLabel.Name = "firstNameLabel";
+            firstNameLabel.Size = new Size(77, 20);
+            firstNameLabel.TabIndex = 9;
+            firstNameLabel.Text = "First name";
             // 
             // createMemberButton
             // 
@@ -191,6 +191,7 @@
             createMemberButton.TabIndex = 21;
             createMemberButton.Text = "Create member";
             createMemberButton.UseVisualStyleBackColor = true;
+            createMemberButton.Click += createMemberButton_Click;
             // 
             // teamMembersListBox
             // 
